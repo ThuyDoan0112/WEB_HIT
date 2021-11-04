@@ -1,0 +1,51 @@
+*{
+    border: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    grid-gap: 1rem;
+}
+.box{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(215, 228, 34);
+}
+.h-container{
+    display: flex;
+    align-items: center;
+}
+.i-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.t-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.t-container .t1{
+    display: flex;
+}
+.so2-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.so2_box1{
+    align-items: flex-end;
+}
+.so_box2{
+    align-items: flex-start;
+}
+.so2-container .box1{
+    display: flex;
+}
