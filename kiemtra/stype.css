@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    color:#000;
+}
+header{
+    width: 100%;
+}
+.menu{
+    width: 100%;
+    background-color: blue;
+    color: black;
+}
+ul{
+    display: flex;
+    grid-gap: 2rem;
+    font-size: 18px;
+    justify-content:center;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+}
+.sp{
+    background-color: blue;
+}
+.col-6{
+    width: 60%;
+}
+.sp-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-gap: 1remrem;
+}
+.sp-item{
+    width: 30%;
+    height: 500px;
+    text-align: center;
+}
+image{
+    width: 100%;
+}
+.col-4{
+    width: 38%;
+    display: flex;
+    justify-content: space-between;
+}
+.row-1{
+    width: 45%;
+    grid-gap:0.5rem;
+}
+.search{
+
+}
+.tk{
+    width: 100%;
+    padding: 0.5rem;
+    background-color: blue;
+}.col-4
+.form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    align-items: center;
+}
+.input{
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 0.5rem;
+}
+button{
+    width: 50px;
+    padding: 0.5rem 1rem;
+    box-sizing: 5px;
+}
+.item{
+    width: 100%;
+    border: 1px solid rgb(196, 52, 153);
+    margin: 0.5rem;
+    border-radius: 10px;
+}
+.td{
+    width: 100%;
+    background-color: rgb(196, 52, 153);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0.5rem;
+}
+.text ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:rgb(196, 52, 153) ;
+}
